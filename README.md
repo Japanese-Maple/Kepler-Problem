@@ -17,7 +17,7 @@ When simulating orbital mechanics, standard numerical integrators introduce cumu
 ### Key Objectives
 
 * **Mathematical Validation:** Proving the boundaries of existence and uniqueness of the Kepler problem via local vs. global variants of the **Picard-Lindelöf Theorem**.
-* **Error Analysis:** Analyzing the local and global truncation errors ($O(h)$ vs $O(h^4)$) of explicit, implicit, and higher-order integrators.
+* **Error Analysis:** Analyzing the local and global truncation errors ($O(h)$ vs $$O(h^4)$$) of explicit, implicit, and higher-order integrators.
 * **Invariant Mapping:** Tracking the unphysical gain/loss of system invariants over extended iterations.
 * **Manifold Projections:** Utilizing the **Lagrange Multipliers Method** to correct numerical drift by shifting drifted states back onto the exact Energy ($E$) and Angular Momentum ($L$) manifolds.
 
