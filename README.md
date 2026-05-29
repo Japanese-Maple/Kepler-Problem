@@ -43,7 +43,7 @@ To eliminate numerical drift without drastically diminishing step sizes ($h$), w
 
 $$\min \left( \frac{1}{2} \|u_{n+1} - \tilde{u}_{n+1}\|^2 \right) \quad \text{subject to} \quad g(u_{n+1}) = 0$$
 
-Where $$\tilde{u}_{n+1}$$ is the uncorrected state produced by a standard step, $$u_{n+1}$$ is the corrected target state, and $$g(u)$$ represents our physical constraints:
+Where $\tilde{u}_{n+1}$ is the uncorrected state produced by a standard step, $u_{n+1}$ is the corrected target state, and $g(u)$ represents our physical constraints:
 
 1. **Projection on Energy Manifold:** Enforces $$E(u_{n+1}) - E(u_n) = 0$$
 2. **Projection on Angular Momentum (AM) Manifold:** Enforces $$L(u_{n+1}) - L(u_n) = 0$$
