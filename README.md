@@ -1,7 +1,3 @@
-Here is a clean, comprehensive, and professional GitHub README description tailored for your project. It is structured to look highly technical and visually organized for anyone visiting your repository.
-
----
-
 # Projection Methods for the Kepler Problem
 
 A comprehensive study and implementation of structure-preserving numerical integration methods applied to the classical **Kepler Problem** (modeling two-body planetary motion under an inverse-square gravitational force).
